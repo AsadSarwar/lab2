@@ -4,29 +4,14 @@ using namespace std;
 
 void Matrix :: input()
 	{
-		/*cout<<"Enter number of rows of matrix"<<endl;
-		cin>>2;
-		cout<<"Enter the number of coloumns of matrix"<<endl;
-		cin>>2;*/
-		for(int i=0; i<2; i++)
 			for(int j=0; j<2; j++)
 			{
-				//cout<<"Enter Entry: ";
 				matrixA[i][j]=1;
 			}
 	}
 
 	void Matrix :: add(Matrix m1, Matrix m2)
 	{
-		/*if(m1.2!=m2.2 && m1.2 != m2.2)
-		{
-			cout<<"Addition not possible"<<endl;
-			return;
-		}
-		else
-		{*/
-			//2=m1.2;
-		//	2=m1.2;
 			for(int i=0; i<2; i++){
 				for(int j=0; j<2; j++)
 				{
@@ -38,15 +23,6 @@ void Matrix :: input()
 	}
 	void Matrix :: subtract(Matrix m1, Matrix m2)
 	{
-		/*if(m1.2!=m2.2 && m1.2 != m2.2)
-		{
-			cout<<"Subtraction not possible"<<endl;
-			return;
-		}
-		else
-		{*/
-			//2=m1.2;
-		//	2=m1.2;
 			for(int i=0; i<2; i++){
 				for(int j=0; j<2; j++)
 				{
@@ -59,15 +35,6 @@ void Matrix :: input()
 
 	void Matrix :: multiply(Matrix m1,Matrix m2)
 	{
-		/*if(m1.2 != m2.2)
-		{
-			cout<<"Mutiplication is not possible"<<endl;
-			return;
-		}
-		else
-		{*/
-			//2=m1.2;
-		//	2=m2.2;
 			for(int i=0; i<2; i++)
 				for(int j=0;j<2; j++)
 				{

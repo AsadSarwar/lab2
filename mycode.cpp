@@ -4,10 +4,13 @@ using namespace std;
 
 void Matrix :: input()
 	{
+		for(int i=0; i<2; i++)
+		{
 			for(int j=0; j<2; j++)
 			{
 				matrixA[i][j]=1;
 			}
+		}
 	}
 
 	void Matrix :: add(Matrix m1, Matrix m2)
